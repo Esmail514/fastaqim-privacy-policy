@@ -1,0 +1,19 @@
+# Local verification output and editor files.
+verification/
+DATA-AUDIT.md
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Never publish or commit credentials.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# No dependencies are required; ignore accidental installs.
+node_modules/
